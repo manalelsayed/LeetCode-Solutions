@@ -5,12 +5,12 @@ public class Solution {
          res.Add(new List<int>(){1});
         for(int i=1;i<numRows;i++){
              res.Add(new List<int>());
-             int term = 1;
-                
+             
+                int term=1;
                 res[i].Add(term);
            
             for(int a=1;a<i;a++){
-                term = term * 1 * (i - a + 1)
+             term = term*  1 * (i - a + 1)
                                 / (a * 1);
  
             res[i].Add(term);
