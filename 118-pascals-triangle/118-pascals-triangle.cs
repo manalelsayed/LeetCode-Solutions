@@ -5,7 +5,7 @@ public class Solution {
          res.Add(new List<int>(){1});
         for(int i=1;i<numRows;i++){
              res.Add(new List<int>());
-             int term = (int)Math.Pow(1, i);
+             int term = 1;
                 
                 res[i].Add(term);
            
